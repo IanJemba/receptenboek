@@ -1,0 +1,53 @@
+*{
+    background-color: whitesmoke;
+}
+img{
+    size: 500px;
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: larger;
+    font-family: initial;
+}
+.container {
+    width: 80%;
+    margin: auto;
+  }
+.header {
+    top: 0;
+    left: 0;
+    height: 12cm;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(site/images/Background.jpg);
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 50%;
+}
+.header1{
+    text-align: center;
+    color: orangered;
+}
+.footer {
+    margin-bottom: 0 auto;
+    height: 2cm;
+    background-image: url(site/images/footer.jpg);
+    font-weight: bold;
+}
+footer ul {
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}

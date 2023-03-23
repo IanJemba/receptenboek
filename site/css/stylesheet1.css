@@ -1,0 +1,97 @@
+* {
+    margin: 0 auto;
+    
+}
+
+.header {
+    top: 0;
+    left: 0;
+    height: 12cm;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../images/Background.jpg);
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 50%;
+}
+
+.footer {
+    margin-bottom: 0 auto;
+    height: 2cm;
+    background-image: url(../images/footer.jpg);
+    font-weight: bold;
+}
+
+p {
+    color: orangered;
+    font-size: medium;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    margin-top: 1cm;
+    height: 10cm;
+    width: 12cm;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    align-content: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin: 12px 12px;
+    border-radius: 25px;
+    box-shadow: 1px 3px 6px 1px #d4d4d4;
+    transition: 0.4s;
+
+
+}
+
+.container:hover {
+    box-shadow: 2px 4px 7px 2px #a9a9a9;
+    transform: scale(1.03);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+div img {
+    height: 80%;
+}
+
+h1 {
+    text-align: center;
+    margin: 4.5cm;
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer ul {
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
