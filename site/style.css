@@ -7,14 +7,26 @@ img{
 }
 h1{
     text-align: center;
+    font-size: 100%;
 }
 .box {
+    width: 200px;
+    height: auto;
     border: 1px solid #ccc;
+    border-radius: 25px;
     padding: 10px;
     margin: 10px 0;
     font-size: larger;
     font-family: initial;
+    display: flex;
+    display: inline-block;
 }
+.box h2 {
+    margin-top: 0;
+    color: orangered;
+    font-size: larger;
+    
+  }
 .container {
     width: 80%;
     margin: auto;
@@ -25,7 +37,7 @@ h1{
     height: 12cm;
     width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(site/images/Background.jpg);
+    background-image: url(images/Background.jpg);
     font-size: 300%;
     color: white;
     font-weight: bold;
@@ -38,7 +50,7 @@ h1{
 .footer {
     margin-bottom: 0 auto;
     height: 2cm;
-    background-image: url(site/images/footer.jpg);
+    background-image: url(images/footer.jpg);
     font-weight: bold;
 }
 footer ul {

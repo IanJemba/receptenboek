@@ -25,7 +25,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <h1>Onze Recepties Voor </h1>
         </div>
     </div>
-    
+
     <div>
         <?php foreach ($all_receptie as $recept) : ?>
             <div class="container">
@@ -33,16 +33,16 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <img src="images/<?php echo $recept['Image'] ?>">
                     <h2><?php echo $recept['eten'] ?></h2>
                     <p><span class="material-symbols-outlined">
-person
-</span> By <?php echo $recept['kok'] ?> </p>
-                    
+                            person
+                        </span> By <?php echo $recept['kok'] ?> </p>
+
                 </a>
 
             </div>
         <?php endforeach; ?>
         <footer>
             <div class="footer">
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:x-large;  text-align:center; color:white"> ©fransevoorjou</p>
+                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:x-large;  text-align:center; color:white"> ©fransevoorjou</p>
                 <ul style="color: blue;">
                     <li>Contact</li>
                     <li>Service </li>
