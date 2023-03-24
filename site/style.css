@@ -1,6 +1,15 @@
 *{
     background-color: whitesmoke;
 }
+header li{
+    list-style-type: none;
+    
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 img{
     size: 500px;
     align-content: center;
@@ -14,12 +23,11 @@ h1{
     height: auto;
     border: 1px solid #ccc;
     border-radius: 25px;
-    padding: 10px;
     margin: 10px 0;
     font-size: larger;
     font-family: initial;
     display: flex;
-    display: inline-block;
+    
 }
 .box h2 {
     margin-top: 0;

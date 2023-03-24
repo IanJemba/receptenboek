@@ -39,7 +39,7 @@ $recept = mysqli_fetch_assoc($result);
       </ul>
     </div>
 
-    <div class="box">
+    <div class="box" style="width:550px">
       <h2>Bereidingswijze</h2>
       <p><?php echo $recept['Stap'] ?></p>
     </div>

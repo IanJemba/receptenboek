@@ -29,7 +29,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <div>
         <?php foreach ($all_receptie as $recept) : ?>
             <div class="container">
-                <a href="DeReceptie.php?id=<?php echo $recept["number"] ?>">
+                <a href="recept.php?id=<?php echo $recept["number"] ?>">
                     <img src="images/<?php echo $recept['Image'] ?>">
                     <h2><?php echo $recept['eten'] ?></h2>
                     <p><span class="material-symbols-outlined">
