@@ -1,0 +1,32 @@
+.header {
+    top: 0;
+    left: 0;
+    height: 12cm;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../images/Background.jpg);
+    font-size: 300%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 50%;
+}
+.footer {
+    margin-bottom: 0 auto;
+    height: 2cm;
+    background-image: url(../images/footer.jpg);
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+footer ul {
+    margin: 0.5em;
+    padding: 0.5em;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}

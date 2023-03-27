@@ -19,18 +19,12 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-    <div class="header">
-        <div style="text-align: center;">
-            <p style="font-size: 300%; color:white"> Franse Eten</p>
-            <h1>Onze Recepties Voor </h1>
-        </div>
-    </div>
-
+<?php include 'header.php'?>
     <div>
         <?php foreach ($all_receptie as $recept) : ?>
             <div class="container">
                 <a href="recept.php?id=<?php echo $recept["number"] ?>">
-                    <img src="images/<?php echo $recept['Image'] ?>">
+                    <img src="images/<?php echo $recept['image'] ?>">
                     <h2><?php echo $recept['eten'] ?></h2>
                     <p><span class="material-symbols-outlined">
                             person
@@ -40,15 +34,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
             </div>
         <?php endforeach; ?>
-        <footer>
-            <div class="footer">
-                <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:x-large;  text-align:center; color:white"> ©fransevoorjou</p>
-                <ul style="color: blue;">
-                    <li>Contact</li>
-                    <li>Service </li>
-                </ul>
-            </div>
-        </footer>
+        <?php  include 'footer.php'?>
 
 </body>
 

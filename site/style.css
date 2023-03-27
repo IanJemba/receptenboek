@@ -1,73 +1,52 @@
-*{
-    background-color: whitesmoke;
-}
-header li{
-    list-style-type: none;
-    
-    display: flex;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-img{
-    size: 500px;
-    align-content: center;
-}
-h1{
-    text-align: center;
-    font-size: 100%;
-}
-.box {
-    width: 200px;
-    height: auto;
-    border: 1px solid #ccc;
-    border-radius: 25px;
-    margin: 10px 0;
-    font-size: larger;
-    font-family: initial;
-    display: flex;
-    
-}
-.box h2 {
-    margin-top: 0;
-    color: orangered;
-    font-size: larger;
-    
-  }
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 800px;
+    margin: 0 auto;
   }
-.header {
-    top: 0;
-    left: 0;
-    height: 12cm;
-    width: 100%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(images/Background.jpg);
-    font-size: 300%;
-    color: white;
-    font-weight: bold;
-    text-shadow: 50%;
-}
-.header1{
-    text-align: center;
-    color: orangered;
-}
-.footer {
-    margin-bottom: 0 auto;
-    height: 2cm;
-    background-image: url(images/footer.jpg);
-    font-weight: bold;
-}
-footer ul {
-    margin: 0.5em;
-    padding: 0.5em;
-    justify-content: space-between;
-    font-size: larger;
-    color: white;
-    list-style-type: none;
+  
+  .header1 {
     display: flex;
-    justify-content: end;
-}
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header1 h1 {
+    font-size: 100%;
+    margin: 1em 0;
+  }
+  
+  .header1 img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1em;
+  }
+  
+  .ingredients ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box h2 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box p {
+    margin: 0.5em 0 0 0;
+  }
+  

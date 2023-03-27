@@ -1,13 +1,13 @@
 <?php
 require 'database.php';
 
-include 'header-footer.php';
 $id = $_GET['id'];
 $sql = "SELECT * FROM receptie WHERE number = $id";
 $result = mysqli_query($conn, $sql);
 $recept = mysqli_fetch_assoc($result);
 
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,37 +20,38 @@ $recept = mysqli_fetch_assoc($result);
 </head>
 
 <body>
+  <?php include 'header.php' ?>
+
   <div class="container">
     <div class="header1">
       <h1><?php echo $recept['eten'] ?></h1>
-      <img src="images/<?php echo $recept['Image'] ?>" alt="pic">
+      <img src="images/<?php echo $recept['image'] ?>" alt="pic">
+      <div class="ingredients">
+        <h2>Ingrediënten</h2>
+        <ul>
+          <?php
+            $separate = $recept['ingredienten'];
+            $array = explode(",", $separate);
+            foreach ($array as $ingredient) {
+              echo "<li>$ingredient</li>";
+            }
+          ?>
+        </ul>
+      </div>
     </div>
 
     <div class="box">
-      <h2>Ingrediënten</h2>
-      <ul>
-        <?php
-        $separate = $recept['ingredienten'];
-        $array = explode(",", $separate);
-        foreach ($array as $ingredient) {
-          echo "<li>$ingredient</li>";
-        }
-        ?>
-      </ul>
-    </div>
-
-    <div class="box" style="width:550px">
       <h2>Bereidingswijze</h2>
-      <p><?php echo $recept['Stap'] ?></p>
+      <p><?php echo $recept['stap'] ?></p>
+    </div>
+
+    <div class="box">
+      <h2>Tips Voor Uw</h2>
+      <p><?php echo $recept['tip'] ?></p>
     </div>
   </div>
-  <div class="box">
-    <h2> Tips Voor Uw;</h2>
-    <p><?php echo $recept['Tip'] ?></p>
-  </div>
-  </div>
 
-
+  <?php include 'footer.php' ?>
 </body>
 
 </html>
