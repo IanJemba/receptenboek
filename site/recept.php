@@ -30,11 +30,11 @@ $recept = mysqli_fetch_assoc($result);
         <h2>Ingrediënten</h2>
         <ul>
           <?php
-            $separate = $recept['ingredienten'];
-            $array = explode(",", $separate);
-            foreach ($array as $ingredient) {
-              echo "<li>$ingredient</li>";
-            }
+          $separate = $recept['ingredienten'];
+          $array = explode(",", $separate);
+          foreach ($array as $ingredient) {
+            echo "<li>$ingredient</li>";
+          }
           ?>
         </ul>
       </div>

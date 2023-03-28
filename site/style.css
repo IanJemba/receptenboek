@@ -1,11 +1,10 @@
 .container {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
   }
   
   .header1 {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
   
@@ -17,36 +16,37 @@
   .header1 img {
     display: block;
     margin: 1em auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
   
   .ingredients {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    margin-left: 1em;
+    margin-left: 1px;
   }
   
   .ingredients ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
   .box {
-    margin-top: 2em;
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
   }
   
   .box h2 {
-    font-size: 1.5em;
+    font-size: xx-large;
     margin: 0;
     padding: 0;
+    color: orangered;
   }
   
   .box p {
     margin: 0.5em 0 0 0;
+    font-size: medium;
+    
   }
   
