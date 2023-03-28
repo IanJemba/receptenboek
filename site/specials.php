@@ -25,14 +25,8 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-    <div class="header">
-        <div style="text-align: center;">
-            <p style="font-size: 300%; color:white"> Franse Eten</p>
-            <h1>Onze Recepties Voor </h1>
-        </div>
-    </div>
-
-    <!-- Display the recipe with the longest time -->
+<?php include 'header.php' ?>
+  <?php include 'nav.php' ?>
     <div class="container">
         <a href="DeReceptie.php?id=<?php echo $langdurende["number"] ?>">
             <img src="images/<?php echo $langdurende['Image'] ?>">

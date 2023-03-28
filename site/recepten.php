@@ -20,6 +20,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <body>
 <?php include 'header.php'?>
+<?php include 'nav.php' ?>
     <div>
         <?php foreach ($all_receptie as $recept) : ?>
             <div class="container">

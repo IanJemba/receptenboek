@@ -10,16 +10,19 @@
     font-weight: bold;
     text-shadow: 50%;
 }
+
 .footer {
     margin-bottom: 0 auto;
     height: 2cm;
     background-image: url(../images/footer.jpg);
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 footer ul {
     margin: 0.5em;
     padding: 0.5em;
@@ -29,4 +32,9 @@ footer ul {
     list-style-type: none;
     display: flex;
     justify-content: end;
+}
+nav {
+    margin-top: 0,auto;
+    align-items: end;
+    position: fixed;
 }

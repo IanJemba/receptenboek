@@ -21,7 +21,7 @@ $recept = mysqli_fetch_assoc($result);
 
 <body>
   <?php include 'header.php' ?>
-
+  <?php include 'nav.php' ?>
   <div class="container">
     <div class="header1">
       <h1><?php echo $recept['eten'] ?></h1>
