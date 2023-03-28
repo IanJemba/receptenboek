@@ -29,11 +29,10 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
   <?php include 'nav.php' ?>
     <div class="container">
         <a href="DeReceptie.php?id=<?php echo $langdurende["number"] ?>">
-            <img src="images/<?php echo $langdurende['Image'] ?>">
+            <img src="images/<?php echo $langdurende['image'] ?>">
             <h2><?php echo $langdurende['eten'] ?></h2>
-            <p><span class="material-symbols-outlined">
-                    person
-                </span> By <?php echo $langdurende['kok'] ?> </p>
+            <p><span class="material-symbols-outlined">person</span> 
+            <p>....By <?php echo $langdurende['kok'] ?> </p>
 
         </a>
     </div>

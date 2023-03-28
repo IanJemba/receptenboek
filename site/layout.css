@@ -35,6 +35,9 @@ footer ul {
 }
 nav {
     margin-top: 0,auto;
+    padding: 25px;
     align-items: end;
     position: fixed;
+    font-size: xx-large;
+    color: orangered;
 }

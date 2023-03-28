@@ -3,14 +3,10 @@
   margin: 0 auto;
 }
 
-.header1 {
-  display: flex;
-  align-items: center;
-}
-
-.header1 h1 {
-  font-size: 100%;
+h1 {
+  font-size: xx-large;
   margin: 1em 0;
+  color: orangered;
 }
 
 .header1 img {
@@ -24,6 +20,8 @@
   display: flex;
   align-items: flex-start;
   margin-left: 1px;
+  border-style: solid;
+  border-radius: 25px;
 }
 
 .ingredients ul {
@@ -35,6 +33,8 @@
   margin-top: 2px;
   display: flex;
   flex-direction: column;
+  border-style: solid;
+  border-radius: 25px;
 }
 
 .box h2 {
