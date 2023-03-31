@@ -95,32 +95,32 @@ h1 {
         'opsz' 48
 }
 
-.sort-options {
+.sort_options {
     margin: 1rem 0;
 }
 
-.sort-options p {
+.sort_options p {
     font-size: 1.2rem;
     margin-right: 1rem;
 }
 
-.sort-options ul {
+.sort_options ul {
     list-style: none;
     display: inline-block;
 }
 
-.sort-options li {
+.sort_options li {
     display: inline-block;
     margin-right: 1rem;
 }
 
-.sort-options a:hover {
+.sort_options a:hover {
     background-color: gray;
     color: #fff;
 }
 
 /* Style the product list section */
-.product-list {
+.product_list {
     display: flex;
     flex-wrap: wrap;
 }

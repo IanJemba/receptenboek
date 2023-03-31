@@ -37,7 +37,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <?php include 'nav.php' ?>
     <h2>Receptenboek</h2>
     
-    <div class="sort-options">
+    <div class="sort_options">
         <p>Sort by:</p>
         <ul>
         <li><a href="?sortby=makkelijk">Makkelijk- Moeilijk</a></li>
@@ -46,7 +46,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </ul>
     </div>
     
-    <div class="product-list">
+    <div class="product_list">
         <?php foreach ($all_receptie as $recept) { ?>
             <div class="product">
                 <img src="images/<?php echo $recept['image']; ?>" alt="<?php echo $recept['eten']; ?>">
