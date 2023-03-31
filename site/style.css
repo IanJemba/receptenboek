@@ -18,7 +18,6 @@ h1 {
 
 .ingredients {
   display: flex;
-  align-items: flex-start;
   margin-left: 1px;
   border-style: solid;
   border-radius: 25px;
@@ -34,7 +33,7 @@ h1 {
   display: flex;
   flex-direction: column;
   border-style: solid;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .box h2 {

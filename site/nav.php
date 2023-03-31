@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="layout.css">
 </head>
+
 <body>
     <nav>
-        <a href="recepten.php"> Home </a>
-        <a href="specials.php"> Specials </a>
+        <ul>
+            <a href="recepten.php"> Home ||</a>
+            <a href="specials.php"> Specials || </a>
+        </ul>
     </nav>
 </body>
+
 </html>

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<div class="header">
+    <div class="header">
         <div style="text-align: center;">
             <p style="font-size: 300%; color:white"> Franse Eten</p>
             <h1>Onze Recepties Voor </h1>

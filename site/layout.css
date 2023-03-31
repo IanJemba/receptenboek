@@ -20,7 +20,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: orangered;
 }
 
 footer ul {
@@ -28,16 +28,17 @@ footer ul {
     padding: 0.5em;
     justify-content: space-between;
     font-size: larger;
-    color: white;
+    color: rgb(255, 0, 0);
     list-style-type: none;
     display: flex;
     justify-content: end;
 }
+
 nav {
-    margin-top: 0,auto;
+    margin-top: 0, auto;
     padding: 25px;
-    align-items: end;
-    position: fixed;
     font-size: xx-large;
-    color: orangered;
+}
+nav:hover{
+ background-color: grey;
 }

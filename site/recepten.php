@@ -2,6 +2,7 @@
 require 'database.php';
 
 $sql = "SELECT * FROM receptie";
+
 $result = mysqli_query($conn, $sql);
 $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 ?>
@@ -14,7 +15,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receptenboek</title>
-    <link rel="stylesheet" href="css/stylesheet1.css">
+    <link rel="stylesheet" href="stylesheet1.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
@@ -26,7 +27,7 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <div class="container">
                 <a href="recept.php?id=<?php echo $recept["number"] ?>">
                     <img src="images/<?php echo $recept['image'] ?>">
-                    <h2><?php echo $recept['eten'] ?></h2>
+                    <h3><?php echo $recept['eten'] ?></h3>
                     <p><span class="material-symbols-outlined">
                             person
                         </span> By <?php echo $recept['kok'] ?> </p>

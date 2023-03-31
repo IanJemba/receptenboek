@@ -16,15 +16,14 @@ $recept = mysqli_fetch_assoc($result);
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>De receptie</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="stylesheet1.css">
 </head>
 
 <body>
   <?php include 'header.php' ?>
   <?php include 'nav.php' ?>
-  <div class="container">
-    <div class="header1">
-      <h1><?php echo $recept['eten'] ?></h1>
+    <div class="container2">
+      <h3><?php echo $recept['eten'] ?></h3>
       <img src="images/<?php echo $recept['image'] ?>" alt="pic">
       <div class="ingredients">
         <h2>Ingrediënten</h2>
