@@ -12,8 +12,9 @@
 <body>
     <nav>
         <ul>
-            <a href="recepten.php"> Home ||</a>
-            <a href="specials.php"> Specials || </a>
+            <a href="index.php">Home ||</a>
+            <a class="Home" href="recepten.php">Recepten ||</a>
+            <a class="Special" href="specials.php"> Specials || </a>
         </ul>
     </nav>
 </body>

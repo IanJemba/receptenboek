@@ -1,7 +1,7 @@
 .header {
     top: 0;
     left: 0;
-    height: 12cm;
+    height: 12.5cm;
     width: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(../images/Background.jpg);
@@ -22,7 +22,9 @@ a {
     text-decoration: none;
     color: orangered;
 }
-
+img{
+    size: 750px;
+}
 footer ul {
     margin: 0.5em;
     padding: 0.5em;
@@ -39,6 +41,7 @@ nav {
     padding: 25px;
     font-size: xx-large;
 }
-nav:hover{
- background-color: grey;
+
+nav a:hover {
+    background-color: grey;
 }

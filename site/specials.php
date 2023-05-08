@@ -33,19 +33,19 @@ $all_receptie = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-<?php include 'header.php'?>
-<?php include 'nav.php' ?>
+    <?php include 'header.php' ?>
+    <?php include 'nav.php' ?>
     <h2>Receptenboek</h2>
-    
+
     <div class="sort_options">
         <p>Sort by:</p>
         <ul>
-        <li><a href="?sortby=makkelijk">Makkelijk- Moeilijk</a></li>
+            <li><a href="?sortby=makkelijk">Makkelijk- Moeilijk</a></li>
             <li><a href="?sortby=ingredienten">Meest Ingredienten</a></li>
             <li><a href="?sortby=langtijd">Langdurende</a></li>
         </ul>
     </div>
-    
+
     <div class="product_list">
         <?php foreach ($all_receptie as $recept) { ?>
             <div class="product">
