@@ -2,7 +2,7 @@
     font-family: sans-serif;
     margin: 0 auto;
     letter-spacing: 1px;
-
+    
 }
 
 .name {
@@ -90,7 +90,7 @@ h1 {
 }
 
 .container2 {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     list-style: none;
 }
@@ -163,12 +163,16 @@ label {
 
 }
 
-form {
-    background: aquamarine;
-    padding: 20px;
-    size: 100%;
-}
 
+div.form{
+    list-style: none;
+    margin-top: 20px;
+    justify-content: center;
+    height: 100%;
+    background-color: yellow;
+    align-items: center;
+    margin-right: 500px;
+}
 div.container {
     background: aliceblue;
     width: 80%;
